@@ -20,9 +20,10 @@ def is_float(string):
         return False
   return False
         
-entry = "2 a + 40 x ( 3.1 )"
+entry = "2 + 40 x ( 3.1 + 444 )"
+print(f'The entry is: {entry}')
 list_entry = entry.split()
-print(list_entry)
+print(f'Split: {list_entry}')
 
 for i in range(len(list_entry)):
   value = list_entry[i] 
