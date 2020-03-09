@@ -1,0 +1,4 @@
+function sumTwo (a, b) {
+    const sum = a + b + 100
+    return sum
+}
