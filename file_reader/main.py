@@ -67,6 +67,7 @@ def get_content_file(file_name) -> list:
     return content
 
 content = get_content_file('entry')
+print(f'cont = {content}')
 for i in range(len(content)):
     value = content[i]
     content[i] = format_content(value)
