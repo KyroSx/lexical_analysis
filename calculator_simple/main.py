@@ -20,7 +20,7 @@ def is_float(string):
         return False
   return False
         
-entry = "2 + 40 x ( 3.1 + 444 )"
+entry = "2 + 40 x (3.1+444)"
 print(f'The entry is: {entry}')
 list_entry = entry.split()
 print(f'Split: {list_entry}')
